@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Web Dasar</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header style="position: sticky; top: 0;">
+        <nav id="navbar" class="flex items-center justify-between" style="width: 100%;">
+            <span class="nav-link">
+                Kiki Baihaqi
+            </span>
+            <ul class="flex" style=" list-style: none;">
+                <li><a href="#article_section" class="nav-link text-black">Article</a></li>
+                <li><a href="#contact" class="nav-link text-black">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro" class="text-black flex flex-col items-center"
+            style="margin-top: 25vh; text-align: center; height: 75vh;">
+            <div>
+                <h1>Don Norman.</h1>
+                <p>Writer of The Design of Everyday Things</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <a href="#article_section">
+                    <button class="cta-button">
+                        Read More
+                    </button>
+                </a>
+                <div style="height: 50vh; border-left: dashed 2px var(--black); width: 0;"></div>
+            </div>
+        </section>
+        <section id="article_section" class="flex">
+            <button class="bio-button">
+                <span class="fa fa-user"></span>
+            </button>
+            <article class="text-white">
+                <p>
+                    Donald Arthur Norman (born December 25, 1935) is an American researcher, professor, and author.
+                    Norman is the director of The Design Lab at University of California, San Diego.He is best known for
+                    his books on design, especially The Design of Everyday Things. He is widely regarded for his
+                    expertise in the fields of design, usability engineering, and cognitive science.[4] He is a
+                    co-founder and consultant with the Nielsen Norman Group. He is also an IDEO fellow and a member of
+                    the Board of Trustees of IIT Institute of Design in Chicago. He also holds the title of Professor
+                    Emeritus of Cognitive Science at the University of California, San Diego. Norman is an active
+                    Distinguished Visiting Professor at the Korea Advanced Institute of Science and Technology (KAIST),
+                    where he spends two months a year teaching.
+                </p><br>
+                <p>
+                    Much of Norman's work involves the advocacy of user-centered design. His books all have the
+                    underlying purpose of furthering the field of design, from doors to computers. Norman has taken a
+                    controversial stance in saying that the design research community has had little impact in the
+                    innovation of products, and that while academics can help in refining existing products, it is
+                    technologists that accomplish the breakthroughs. To this end, Norman named his website with the
+                    initialism JND (just-noticeable difference) to signify his endeavors to make a difference.
+                </p><br>
+                <p>
+                    Source :
+                    <a href="https://en.wikipedia.org/wiki/Don_Norman" target="_blank" style="color: var(--primary);">
+                        Wikipedia Page
+                    </a>
+                </p>
+            </article>
+            <aside>
+                <div class="card-container">
+                    <div class="card flex flex-col items-center">
+                        <div class="card-header flex justify-center">
+                            <img src="assets/foto.jpg">
+                        </div>
+                        <div class="card-body text-white flex flex-col items-center">
+                            <span style="font-size: 1.2em;">Muhammad Ihya Firdaus B</span>
+                            <span style="color: rgb(154, 160, 167); margin: 5px;">Frontend Developer</span>
+                            <p style="font-size: 0.9em;">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis minus quibusdam quia,
+                                vel, earum totam repudiandae dolores omnis mollitia ut rem ullam possimus vitae
+                                voluptatibus
+                                cumque perspiciatis alias quidem quam!
+                            </p>
+                            <button class="close-button">
+                                <span class="fa fa-times"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer id="contact" class="bg-primary flex flex-col items-center" style="padding: 50px 0;">
+        <h1 class="text-white" style="margin-bottom: 20px; padding: 0 20px; text-align: center;">
+            Get in Touch with me on :
+        </h1>
+        <div class="flex flex-wrap">
+            <a href="https://github.com/effendikiki" class="nav-link text-white">
+                <span class="fa fa-github"></span> Github
+            </a>
+            <a href="https://www.instagram.com/effendi_kiki" class="nav-link text-white">
+                <span class="fa fa-instagram"></span> Instagram
+            </a>
+        </div>
+    </footer>
+
+    <script src="assets/dom.js"></script>
+</body>
+
+</html>
